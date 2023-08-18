@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    /*Al usar display: flex activamos */
+    /*alinear elemento de forma horizontal*/
+    justify-content: center;
+    /*alinear elemento de forma vertical*/
+    align-items: center;
+    /* vh = viewport height */
+    height: 100vh; /*altura toda la pantalla. Si fuera 50vh seria la mitad de la pantalla*/
+    border: solid red;
+
+}
+
+div {
+    border: solid;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
